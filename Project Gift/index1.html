@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lange="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Website</title>
+  <link rel="stylesheet" href="Styles.css">
+<script src="https://kit.fontawesome.com/56e7a89b1c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+    <nav>
+ 
+       <img src="Images/Logo.png" class="logo">
+ 
+      <ul id="sidemenu">
+        <li><a href="#header">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#contact">CONTACT ME </a></li>
+       <i class="fas fa-times" onclick="closemenu()"></i>
+      </ul>
+
+  <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+   <div class="header-text">
+      <p>Software/ Web Devoper</p>
+      <h1>Hi, I'm <span> Gift<br> Zanelitetho</span> Hina From Southern Africa</h1>
+    </div>
+</div>
+</div>
+<!-------------------------About Part------------->
+   <div id="about">
+       <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+             <img src="Images/whole body.png">
+             </div>
+              <div class="about-col-2">
+               <h1 class="sub-title">About Me</h1>
+               <p>This is my official portfolio Website showing all
+details and Work, <br>Education Backgroud</br></p>
+                
+           <div class="tab-titles">
+           <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+           <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+           </div>
+ 
+ <div class="tab-contents active-tab id="skils">
+<ul>
+  <li><span>Software Development</span><br>Web Developer</li>
+  <li><span> Web Development</span><br>Web App Development</li>
+  <li><span>Application Development</span><br>Building Android/iOS apps</li>
+  <li><span>SQL,mySQL</span><br>Database Development and Administration</li>
+  <li><span>Software Testing</span><br>Testing Security and Proficiency of Apps</li>
+</ul>
+</div>
+ <div class="tab-contents"id="experience">
+<ul>
+  <li><span>2019</span><br>Started C++ training and HTML.</li>
+  <li><span> 2020-2021</span><br>Lab-Assisstant, Tshwane University of Technology</li>
+  <li><span>2022-2023</span><br>Database Development and Administration</li>
+  <li><span>2023-to-date</span><br>Testing Security and Proficiency of Apps</li>
+</ul>
+</div>
+  </div>
+<div class="tab-contents"id="education">
+<ul>
+  <li><span>2019</span><br>Started C++ training<br> and HTML.</li>
+  <li><span> 2020-2021</span><br>Lab-Assisstant,<br> Tshwane University of Technology</li>
+  <li><span>2022-2023</span><br>Database Development<br> and Administration</li>
+  <li><span>2023-to-date</span><br>Testing Security<br> and Proficiency of Apps</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-------------Services------------------------>
+<div id="services">
+    <div class="container">
+     <h1 class="sub-title">My Services</h1>
+     <div class="services-list">
+      <div>
+     <i class="fa-solid fa-code"></i>
+     <h2>Web Design</h2>
+     <p>As a web developer, you create, enhance, and maintain websites and web applications,<br> ensuring they are visually appealing, functional, and secure.<br> Your services encompass front-end and back-end development, responsive design, e-commerce solutions, CMS integration, SEO, web security, hosting, and custom web solutions to meet the unique needs of clients.</p>
+ <a href="#">Learn more</a>
+ </div>
+      
+     </div>
+ <div class="services-list">
+      <div>
+     <i class="fa-solid fa-crop"></i>
+     <h2>UI/UX Design</h2>
+     <p>As a UI/UX designer, you focus on creating intuitive and visually appealing digital interfaces. Your services involve designing user-friendly layouts, interactive elements, and overall user experiences to enhance the usability and aesthetic appeal of websites, mobile apps, and software.</p>
+ <a href="#">Learn more</a>
+ </div>
+
+ <div>
+     <i class="fa-brands fa-android"></i>
+     <h2>App Design</h2>
+     <p>As an app designer, I specialize in creating visually appealing and user-friendly mobile and web applications. My services include designing app interfaces, user experiences, and interactive elements, ensuring a seamless and engaging digital experience for users.</p>
+ <a href="#">Learn more</a>
+ </div>
+    </div>
+</div>
+</div>
+<!------------------------------Portfolio----------------------->
+
+<div id="portfolio">
+  <div class="container">
+  <h1 class="sub-title">My Work</h1>
+   <div class="work-list">
+   <div class="work"> 
+    <img src="Images/Home.png"> 
+    <div class="layer">
+     <h3>MatShopFinder App</h3>
+      <p>A price comparison system for building materials.it's an online tool that enables construction professionals, contractors, and homeowners to easily find, compare, and select the most cost-effective building materials for their projects.</p>
+  <a href="#"><i class="fa-solid fa-link"></i></a>
+    </div> 
+   </div>
+</div>
+<div class="work-list">
+    <div class="work"> 
+    <img src="Images/login.png"> 
+<div class="layer">
+     <h3>MatShopFinder LogIn/Admin Access</h3>
+      <p>A "Material ShopFinder" with a login and admin access system is a digital platform that allows users to discover and locate shops or suppliers of various construction materials. </p>
+  <a href="#"><i class="fa-solid fa-square-up-right"></i></i></a>
+    </div>  
+   </div
+  
+</div>
+<div class="work-list">
+    <div class="work"> 
+    <img src="Images/android.png">
+ <div class="layer">
+     <h3>OnForm: Video Analysis App</h3>
+      <p>OnForm is a coaching platform with state-of-the-art video analysis tools. It allows coaches to give video feedback on their athletes’ training thanks to slow motion, video markup, and voice-over recordings.</p>
+   <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+</div> 
+   </div>
+<a href="#" class="btn">See More</a>
+</div>
+</div>
+<!-----------------------Contact---------------------->
+<div id="contact">
+    
+  <div class="container">
+    <div class="row">
+     <div class="contact-left">
+    <h1 class="sub-title">Contact Me</h1>
+     <p><i class="fa-solid fa-paper-plane"></i>zanelitetho@yahoo.com</p>
+     <p><i class="fa-solid fa-phone"></i>069 729 0676</p>
+      <div class="social-icons">
+       <a href="https://www.facebook.com/Montgomery.Clyd/about"<i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/zanelitetho/"<i class="fa-brands fa-instagram"></i></a>
+        <a href="www.linkedin.com/in/gift-zanele-64ab30196"<i class="fa-brands fa-linkedin"></i></a>
+      </div>
+   <a href="Images/Mycv.pdf" download class="btn btn2">Download CV</a>
+     </div>
+     <div class="contact-right"></div>
+      <form name="submit-to-google-sheet">
+      <input type="text" name="Name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+      <button type="submit" class="btn btn2">Submit</button>
+      </form>
+   <span id="msg"> </span>
+
+
+
+
+    </div>
+
+
+
+ </div>
+
+
+
+
+
+</div>
+<div class="copyright">
+ <p>Copyright © Gift. Made with <i class="fa-solid fa-heart"></i> by Gift Zanelitetho Hina founder of HackXplus®</p> 
+</div>
+</div>
+<script>
+
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname){
+        for(tablink of tablinks){
+           tablink.classList.remove("active-link");
+     
+        }
+         for(tabcontent of tabcontents){
+           tabcontent.classList.remove("active-tab");
+     
+        }
+       event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab");
+
+       }
+
+
+</script>
+
+
+<script>
+   var sidemeu = document.getElementById("sidemenu");
+
+   function openmenu(){
+   
+   sidemeu.style.right = "0";
+  }
+ function closemenu(){
+   
+   sidemeu.style.right = "-200px";
+  }
+ 
+
+ 
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxZ4qh4FA1NnRe8TytBcOM0tg3aAanvmOe_ft7zsJ_h39a4XrqMsUzHhMUCLDd9mC4b_w/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+      msg.innerHTML = "Message sent successfully" 
+      setTimeout(function(){
+      msg.innerHTML = ""},5000)
+form.reset()
+     })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+
+</html>
